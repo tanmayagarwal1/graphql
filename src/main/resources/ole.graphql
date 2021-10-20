@@ -1,0 +1,57 @@
+schema {
+    query: Query
+}
+
+type Query{
+    info : graphQlObject
+}
+
+type graphQlObject{
+    Grand_total : Int
+    total_2021 : Int
+    total_2022 : Int
+    total_Aarp : Int
+    total_Aarp_2021 : Int
+    total_Aarp_2022 : Int
+    total_Uhc : Int
+    total_Uhc_2021 : Int
+    total_Uhc_2022 : Int
+    total_Uhccp : Int
+    total_Uhccp_2021 : Int
+    total_Uhccp_2022 : Int
+    total_MA : Int
+    total_MA_2021 : Int
+    total_MA_2022 : Int
+    total_Aarp_MA : Int
+    total_Aarp_MA_2021 : Int
+    total_Aarp_MA_2022 : Int
+    total_Uhc_MA : Int
+    total_Uhc_MA_2021 : Int
+    total_Uhc_MA_2022 : Int
+    total_Uhccp_MA : Int
+    total_Uhccp_MA_2021 : Int
+    total_Uhccp_MA_2022 : Int
+    total_PDP : Int
+    total_PDP_2021 : Int
+    total_PDP_2022 : Int
+    total_Aarp_PDP : Int
+    total_Aarp_PDP_2021 : Int
+    total_Aarp_PDP_2022 : Int
+    total_Uhc_PDP : Int
+    total_Uhc_PDP_2021 : Int
+    total_Uhc_PDP_2022 : Int
+    total_Uhccp_PDP : Int
+    total_Uhccp_PDP_2021 : Int
+    total_Uhccp_PDP_2022 : Int
+    total_SNP : Int
+    total_SNP_2021 : Int
+    total_SNP_2022 : Int
+    total_Aarp_SNP : Int
+    total_Aarp_SNP_2021 : Int
+    total_Aarp_SNP_2022 : Int
+    total_Uhc_SNP : Int
+    total_Uhc_SNP_2021 : Int
+    total_Uhc_SNP_2022 : Int
+    total_Uhccp_SNP : Int
+    total_Uhccp_SNP_2021 : Int
+}
